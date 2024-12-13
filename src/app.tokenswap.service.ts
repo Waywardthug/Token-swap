@@ -3,7 +3,7 @@ async function scheduleTokenSwap(timeInMs: number, amount: number, fromToken: st
         throw new Error("Time must be greater than zero.");
     }
 
-    console.log(`Token swap scheduled: Swapping ${amount} ${fromToken} to ${toToken} for ${userAddress}. Executing in ${timeInMs} ms.`);
+    console.log(`Token swap scheduled: https://github.com/Waywardthug/Token-swap.gitSwapping ${amount} ${fromToken} to ${toToken} for ${userAddress}. Executing in ${timeInMs} ms.`);
 
     // Wait for the specified time
     await new Promise(resolve => setTimeout(resolve, timeInMs));
